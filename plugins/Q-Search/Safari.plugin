@@ -10,7 +10,7 @@
 ^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+ https://github.com/search?q=$2 302
 
 # gu xxx (GitHub User)
-^https:\/\/duckduckgo.com\/\?q=gh(\+|%20)([^&]+).+ https://github.com/search?q=$2&type=users 302
+^https:\/\/duckduckgo.com\/\?q=gu(\+|%20)([^&]+).+ https://github.com/search?q=$2&type=users 302
 
 # ----------- Translate ----------- #
 
@@ -38,13 +38,7 @@
 ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
 
 # wx    xxx (微信)
-^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ url 302 https://weixin.sogou.com/weixinwap?query=$1
-
-# rd xxx (Reddit)
-^https:\/\/duckduckgo.com\/\?q=rd(\+|%20)([^&]+).+ https://www.reddit.com/search?q=$2 302
-
-# tw xxx (Twitter)
-^https:\/\/duckduckgo.com\/\?q=tw(\+|%20)([^&]+).+ https://twitter.com/search?q=$2 302
+^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ url 302 https://weixin.sogou.com/weixin?query=$1&type=2
 
 # ----------- Shopping ----------- #
 

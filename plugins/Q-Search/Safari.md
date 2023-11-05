@@ -27,8 +27,6 @@
 | db xxx      | 豆瓣搜索            |
 | zh xxx      | 知乎搜索            |
 | wb xxx      | 微博搜索            |
-| rd xxx      | Reddit 搜索         |
-| tw xxx      | Twitter 搜索        |
 | gi xxx      | Google 图片搜索     |
 | ytb xxx     | YouTube 搜索        |
 | so xxx      | Stack Overflow 搜索 |
