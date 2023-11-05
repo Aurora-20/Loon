@@ -1,6 +1,7 @@
 #!name=Q-Search  
 #!desc=Safari Search Add-ons
 #!icon=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png
+#！data = 2023/11/05 15:16:59
 
 [Rewrite]
 # ----------- Github ----------- #
@@ -94,7 +95,7 @@
 
 # ----------- Search ----------- #
 # g xxx （Google）
-^https:\/\/duckduckgo.com\/\?q=g(\+|%20)([^&]+).+ https://www.google.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=g(\+|%20)([^&]+).+ https://www.google.com/search?q=$2 302
 
 # bd xxx (百度)
 ^https:\/\/duckduckgo.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
