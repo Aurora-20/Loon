@@ -37,19 +37,19 @@
 # wb xxx (微博)
 ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
 
-# wx    xxx (微信)
-^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ url 302 https://weixin.sogou.com/weixin?query=$1&type=2
+# wx xxx (微信)
+^https:\/\/duckduckgo.com\/\?q=wx(\+|%20)([^&]+).+ url 302 https://weixin.sogou.com/weixin?query=$2&type=2
 
 # ----------- Shopping ----------- #
 
 # zdm xxx (什么值得买)
-^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ url 302 https://search.m.smzdm.com/?v=b&s=$1
+^https:\/\/duckduckgo.com\/\?q=zdm(\+|%20)([^&]+).+ url 302 https://search.m.smzdm.com/?v=b&s=$2
 
 # jd  xxx (京东)
-^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ url 302 openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"}
+^https:\/\/duckduckgo.com\/\?q=jd(\+|%20)([^&]+).+ url 302 openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$2","from":"search","category":"jump"}
 
 # tb  xxx (淘宝)
-^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ url 302 taobao://s.taobao.com?q=$1
+^https:\/\/duckduckgo.com\/\?q=tb(\+|%20)([^&]+).+ url 302 taobao://s.taobao.com?q=$2
 
 # ----------- App Store Region ----------- #
 
@@ -79,7 +79,7 @@
 ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
 
 # bli xxx (哔哩哔哩)
-^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+ url 302 https://m.bilibili.com/search?keyword=$1
+^https:\/\/duckduckgo.com\/\?q=bli(\+|%20)([^&]+).+ url 302 https://m.bilibili.com/search?keyword=$2
 
 # so xxx (Stack Overflow)
 ^https:\/\/duckduckgo.com\/\?q=so(\+|%20)([^&]+).+ https://stackoverflow.com/search?q=$2 302
