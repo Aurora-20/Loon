@@ -38,37 +38,37 @@
 ^https:\/\/duckduckgo.com\/\?q=wb(\+|%20)([^&]+).+ https://s.weibo.com/weibo/$2 302
 
 # wx xxx (微信)
-^https:\/\/duckduckgo.com\/\?q=wx(\+|%20)([^&]+).+ url 302 https://weixin.sogou.com/weixin?query=$2&type=2
+^https:\/\/duckduckgo.com\/\?q=wx(\+|%20)([^&]+).+ https://weixin.sogou.com/weixin?query=$2&type=2 302
 
 # ----------- Shopping ----------- #
 
 # zdm xxx (什么值得买)
-^https:\/\/duckduckgo.com\/\?q=zdm(\+|%20)([^&]+).+ url 302 https://search.m.smzdm.com/?v=b&s=$2
+^https:\/\/duckduckgo.com\/\?q=zdm(\+|%20)([^&]+).+ https://search.m.smzdm.com/?v=b&s=$2 302
 
 # jd  xxx (京东)
-^https:\/\/duckduckgo.com\/\?q=jd(\+|%20)([^&]+).+ url 302 openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$2","from":"search","category":"jump"}
+^https:\/\/duckduckgo.com\/\?q=jd(\+|%20)([^&]+).+ openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$2","from":"search","category":"jump"} 302
 
 # tb  xxx (淘宝)
-^https:\/\/duckduckgo.com\/\?q=tb(\+|%20)([^&]+).+ url 302 taobao://s.taobao.com?q=$2
+^https:\/\/duckduckgo.com\/\?q=tb(\+|%20)([^&]+).+ taobao://s.taobao.com?q=$2 302
 
 # ----------- App Store Region ----------- #
 
 # cn  (To China)
-^https:\/\/duckduckgo.com\/\?q=cn&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=cn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
 # hk  (To Hong Kong)
-^https:\/\/duckduckgo.com\/\?q=hk&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc= 302
 # tw  (To Taiwan)
-^https:\/\/duckduckgo.com\/\?q=tw&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc= 302
 # us  (To United States)
-^https:\/\/duckduckgo.com\/\?q=us&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=us&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
 # jp  (To Japan)
-^https:\/\/duckduckgo.com\/\?q=jp&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
 # sk  (To South Korea)
-^https:\/\/duckduckgo.com\/\?q=sk&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=sk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc= 302
 # tr  (To Turkey)
-^https:\/\/duckduckgo.com\/\?q=tr&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 # sg  (To Singapore)
-^https:\/\/duckduckgo.com\/\?q=sg&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
+^https:\/\/duckduckgo.com\/\?q=sg&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
 
 # ----------- Other ----------- #
 
@@ -79,7 +79,7 @@
 ^https:\/\/duckduckgo.com\/\?q=ytb(\+|%20)([^&]+).+ https://www.youtube.com/results?search_query=$2 302
 
 # bli xxx (哔哩哔哩)
-^https:\/\/duckduckgo.com\/\?q=bli(\+|%20)([^&]+).+ url 302 https://m.bilibili.com/search?keyword=$2
+^https:\/\/duckduckgo.com\/\?q=bli(\+|%20)([^&]+).+ https://m.bilibili.com/search?keyword=$2 302
 
 # so xxx (Stack Overflow)
 ^https:\/\/duckduckgo.com\/\?q=so(\+|%20)([^&]+).+ https://stackoverflow.com/search?q=$2 302
