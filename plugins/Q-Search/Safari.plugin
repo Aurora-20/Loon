@@ -96,5 +96,6 @@
 
 # xxx （无指令默认为 Ecosia）
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.ecosia.org/search?q=$1 302
+
 [MITM]
 hostname = duckduckgo.com
