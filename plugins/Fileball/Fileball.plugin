@@ -9,4 +9,4 @@ force-http-engine-hosts =quark.example.com:0, pikpak.example.com:0
 
 [Script]
 # 夸克网盘和PikPak网盘挂载
-http-request ^http:\/\/(quark|pikpak)\.example\.com script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Fileball/Fileball_mount.js, requires-body = true, tag = Fileball网盘挂载
+http-request ^http:\/\/(quark|pikpak)\.example\.com script-path = https://raw.githubusercontent.com/Aurora-20/Loon/main/plugins/Fileball/Fileball_mount.js, requires-body = true, tag = Fileball网盘挂载
